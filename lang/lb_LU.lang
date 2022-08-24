@@ -1,0 +1,40 @@
+notification_title = Notifikatiounen
+notification_settings = Astellungen
+notification_docs = Hëllef
+
+# Konfiguratiounsformen
+notification_config = Astellungen
+notification_config_editor_label = Editor Präferenz
+
+qanda_info_donate = Am Géigesaz zu de meescht Addons aus der REDAXO Gemeinschaft ass d'Schafung an d'Weiderentwécklung vun dësem Addon net vun eegene Projeten ofgedeckt. Mat enger Bestellung séchert Dir zousätzlech Funktiounen, déi d'Stabilitéit, d'Funktionalitéit an d'Weiderentwécklung weider verbesseren, souwéi besser Instruktiounen. 
+qanda_donate = Weiderentwécklung ënnerstëtzen 
+
+# YForm Dësch Iwwersetzung
+notification_table_name_label = Iwwerschrëft
+notification_table_name_notice = Kuerzen beschreiwenden Titel
+notification_table_date_from_label = Datum vun
+notification_table_date_from_notice = Vun wéini soll d'Notifikatioun ugewise ginn?
+notification_table_date_to_label = Datum op
+notification_table_date_to_notice = Wéini soll d'Notifikatioun ugewise ginn? 
+
+notification_table_message_label = Inhalt
+notification_table_message_notice = Notifikatiounsinhalt 
+notification_table_status_label = Status
+notification_table_status_notice = Soll dës Notifikatioun allgemeng ugewise ginn?
+notification_table_status_offline = Offline
+notification_table_status_online = Online
+
+notification_table_createdate_label = Erstellungsdatum
+
+notification_table_type_label = Typ
+notification_table_type_notice = fakultativ: Notifikatiounstyp, z.B.: Warnung, Info, ...
+notification_table_type_default = keng Wiel
+notification_table_type_warning = Warnung / Wichteg
+notification_table_type_info = Informatioun / Notiz
+notification_table_type_danger = Gefor / Negativ
+notification_table_type_success = Erfolleg / Positiv
+
+notification_table_dismiss_label = Entlooss
+notification_table_dismiss_notice = Als Websäit Visiteur erlaabt oder net erlaabt: zoumaachen am Message.
+notification_table_dismiss_allow = erlaabt - de Message kann entlooss ginn
+notification_table_dismiss_disallow = net erlaabt - de Message bleift siichtbar
