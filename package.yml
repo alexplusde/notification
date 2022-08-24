@@ -1,48 +1,43 @@
-package: notification 
-version: '1.0.0' 
-author: 'Alexander Walther' 
-supportpage: https://github.com/alexplusde/notification 
+package: notification
+version: '1.0.0'
+author: 'Alexander Walther'
+supportpage: https://github.com/alexplusde/notification
 
 
-requires:                       
+requires:
     php:
         version: '>7.3,<9'
-    redaxo: ^5.13              
-    packages:                  
+    redaxo: ^5.13
+    packages:
         yform: "^4"
 
-
-
 page:
-    title: translate:notification_title    
-    prio: 100                       
-    icon: rex-icon fa-gear
+    title: translate:notification_title
+    prio: 15
+    icon: rex-icon fa-bell
+    block: system
 
 pages:
-    notification: 
+    notification:
         title: translate:notification_title
-
-        block: system               
-        prio: 15                    
-        icon: rex-icon fa-calendar  
-        perm: notification[]               
-        subpages:                   
+        prio: 15
+        icon: rex-icon fa-bell
+        perm: notification[]
+        subpages:
             table:
-                title: translate:notification_settings
-                icon: rex-icon fa-gear
-                itemclass: pull-right
-                perm: admin
-            settings:
-                title: translate:notification_settings
-                icon: rex-icon fa-gear
-                itemclass: pull-right
-                perm: admin
-            docs:
-                title: translate:notification_docs
-                subPath: README.md  
-                icon: rex-icon fa-info-circle
-                itemclass: pull-right
-                perm: notification[docs]
+                title: translate:notification_title
+                icon: rex-icon fa-list-alt
+    settings:
+        title: translate:notification_settings
+        icon: rex-icon fa-gear
+        itemclass: pull-right
+        perm: admin
+    docs:
+        title: translate:notification_docs
+        subPath: README.md
+        icon: rex-icon fa-info-circle
+        itemclass: pull-right
+        perm: notification[docs]
 
 default_config:
-    editor: 'Test' 
+    editor: 'class="form-control cke5-editor" data-lang="de" data-profile="default"'

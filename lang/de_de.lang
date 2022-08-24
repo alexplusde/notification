@@ -1,10 +1,31 @@
-notification_title: Benachrichtigung
-
+notification_title = Benachrichtigungen
+notification_settings = Einstellungen
+notification_docs = Hilfe
 # Konfigurationsformulare
 notification_config = Einstellungen
-notification_config_editor_label = Test-Feld
-notification_config_editor_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
+notification_config_editor_label = Editor-Einstellung
 
 # YForm Tablelen-Übersetzung
-notification_table_name_label = Name
-notification_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
+notification_table_name_label = Überschrift
+notification_table_name_notice = Kurzer aussagekräftiger Titel
+notification_table_date_from_label = Datum ab
+notification_table_date_from_notice = Ab wann soll der Hinweis angezeigt werden?
+notification_table_date_to_label = Datum bis
+notification_table_date_to_notice = Bis wann soll der Hinweis angezeigt werden? 
+
+notification_table_message_label = Inhalt
+notification_table_message_notice = Inhalt der Benachrichtigung 
+notification_table_status_label = Status
+notification_table_status_notice = Soll dieser Hinweis generell angezeigt werden?
+notification_table_status_offline = Offline
+notification_table_status_online = Online
+
+notification_table_createdate_label = Erstelldatum
+
+notification_table_type_label = Typ
+notification_table_type_notice = optional: Hinweis-Typ, z.B: Warnung, Info, ...
+notification_table_type_default = keine Auswahl
+notification_table_type_warning = Warnung / Wichtig
+notification_table_type_info = Information / Hinweis
+notification_table_type_danger = Gefahr / Negativ
+notification_table_type_success = Erfolg / Positiv
