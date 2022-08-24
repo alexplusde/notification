@@ -40,11 +40,14 @@ class notification extends \rex_yform_manager_dataset
         if ($this->getStatus() == 0) {
             return false;
         }
-        $now = date("Y-m-d h:i:s");
-        if (date("Y-m-d h:i:s", $this->getDateFrom()) > $now || date("Y-m-d h:i:s", $this->getDateTo()) < $now) {
+        
+        $now = new DateTime();
+        $from = new DateTime($this->getDateFrom());
+        $to = new DateTime($this->getDateTo());
+        if ($from > $now || $to < $now) {
             return false;
         }
-        if (self::get($notification_id)->getDismiss() != 1 && str_contains(rex_cookie("notification"), "|".$notification_id."|")) {
+        if ($this->getDismiss() == 1 && strpos(rex_cookie("notification_dismissed"), "|".$this->getId()."|")) {
             return false;
         }
         return true;
