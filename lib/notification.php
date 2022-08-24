@@ -52,4 +52,35 @@ class notification extends \rex_yform_manager_dataset
         }
         return true;
     }
+    
+    public static function getCurrentNotifications()
+    {
+        return notification::query()->setWhere("status", "1")->findAll();
+    }
+
+    public function getNotificationOutput()
+    {
+        $output = new rex_fragment();
+        $output->setVar("notification", $this);
+        return $output->parse('notification/notification.php');
+    }
+    public function getToastOutput()
+    {
+        $output = new rex_fragment();
+        $output->setVar("notification", $this);
+        return $output->parse('notification/toast.php');
+    }
+
+    public static function getNotificationsOutput()
+    {
+        $output = new rex_fragment();
+        $output->setVar("notifications", self::getCurrentNotifications);
+        return $output->parse('notification/notifications.php');
+    }
+    public static function getToastsOutput()
+    {
+        $output = new rex_fragment();
+        $output->setVar("notifications", self::getCurrentNotifications);
+        return $output->parse('notification/toasts.php');
+    }
 }
