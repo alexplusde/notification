@@ -1,0 +1,40 @@
+notification_title = Powiadomienia
+Notification_settings = Ustawienia
+notyfikacje_dokumenty = pomoc
+
+# Formularze konfiguracyjne
+notification_config = ustawienia
+notification_config_editor_label = Preferencje edytora
+
+qanda_info_donate = W przeciwieństwie do większości dodatków ze społeczności REDAXO, tworzenie i dalszy rozwój tego dodatku nie jest objęty własnymi projektami. Dzięki zamówieniu zyskujesz dodatkowe funkcje, które mogą jeszcze bardziej poprawić stabilność, funkcjonalność i dalszy rozwój, a także lepsze instrukcje. 
+qanda_donate = Wspieraj dalszy rozwój 
+
+# Tłumaczenie tabeli YForm
+powiadomienie_table_name_label = Nagłówek
+notification_table_name_notice = Krótki opisowy tytuł
+notification_table_date_from_label = Data od
+notification_table_date_from_notice = Od kiedy powinno być wyświetlane powiadomienie?
+notification_table_date_to_label = Data do
+notification_table_date_to_notice = Do kiedy powinno zostać wyświetlone powiadomienie? 
+
+notification_table_message_label = Treść
+notification_table_message_notice = Treść powiadomienia 
+powiadomienie_table_status_label = Status
+notification_table_status_notice = Czy to powiadomienie powinno być ogólnie wyświetlane?
+notification_table_status_offline = Offline
+notification_table_status_online = Online
+
+notification_table_createdate_label = Data utworzenia
+
+powiadomienie_table_type_label = Typ
+notification_table_type_notice = opcjonalnie: typ powiadomienia, np.: ostrzeżenie, info, ...
+notification_table_type_default = brak wyboru
+notification_table_type_warning = Ostrzeżenie / Ważne
+notification_table_type_info = Informacja / Powiadomienie
+notification_table_type_danger = Niebezpieczeństwo / Negatyw
+notification_table_type_success = Sukces / Pozytywny
+
+notification_table_dismiss_label = Odrzuć
+notification_table_dismiss_notice = Dozwolone lub niedozwolone jako odwiedzający witrynę: zamknij w wiadomości.
+notification_table_dismiss_allow = dozwolone - wiadomość może zostać odrzucona
+notification_table_dismiss_disallow = disallowed - wiadomość pozostaje widoczna
