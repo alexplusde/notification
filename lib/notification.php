@@ -55,7 +55,7 @@ class notification extends \rex_yform_manager_dataset
     
     public static function getCurrentNotifications()
     {
-        return notification::query()->setWhere("status", "1")->findAll();
+        return notification::query()->where("status", "1")->find();
     }
 
     public function getNotificationOutput()
@@ -74,13 +74,13 @@ class notification extends \rex_yform_manager_dataset
     public static function getNotificationsOutput()
     {
         $output = new rex_fragment();
-        $output->setVar("notifications", self::getCurrentNotifications);
+        $output->setVar("notifications", self::getCurrentNotifications());
         return $output->parse('notification/notifications.php');
     }
     public static function getToastsOutput()
     {
         $output = new rex_fragment();
-        $output->setVar("notifications", self::getCurrentNotifications);
+        $output->setVar("notifications", self::getCurrentNotifications());
         return $output->parse('notification/toasts.php');
     }
 }
