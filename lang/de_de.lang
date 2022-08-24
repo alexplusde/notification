@@ -1,12 +1,10 @@
-blaupause_title: blaupause-Addon
-
-# FriendsOfREDAXO-Addons können bei YTraduco zur Übersetzung eingereicht werden
+notification_title: Benachrichtigung
 
 # Konfigurationsformulare
-blaupause_config = Einstellungen
-blaupause_config_mytextfield_label = Test-Feld
-blaupause_config_mytextfield_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
+notification_config = Einstellungen
+notification_config_editor_label = Test-Feld
+notification_config_editor_notice = Notiz, die etwas erklärt und bspw. einen Standardwert nennt. Hier: <code>Test</code>
 
 # YForm Tablelen-Übersetzung
-blaupause_table_name_label = Name
-blaupause_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
+notification_table_name_label = Name
+notification_table_name_notice = Notiz, die etwas erklärt und auch einen Beispielwert nennen kann, z.B.: <code>Mein Name</code> 
