@@ -33,3 +33,8 @@ notification_table_type_warning = Warnung / Wichtig
 notification_table_type_info = Information / Hinweis
 notification_table_type_danger = Gefahr / Negativ
 notification_table_type_success = Erfolg / Positiv
+
+translate:notification_table_dismiss_label = Wegklicken
+translate:notification_table_dismiss_notice = erlaubt oder untersagt, als Website-Besucher:in die Nachricht zu schließen.
+translate:notification_table_dismiss_allow = erlaubt - die Nachricht lässt sich schließen
+translate:notification_table_dismiss_disallow = untersagt - die Nachricht bleibt sichtbar
