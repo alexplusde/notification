@@ -1,0 +1,40 @@
+notification_title = Notifications
+notification_settings = Settings
+notification_docs = help
+
+# Configuration forms
+notification_config = settings
+notification_config_editor_label = Editor preference
+
+qanda_info_donate = Unlike most addons from the REDAXO community, the creation and further development of this addon is not covered by own projects. With an order you secure additional features that can further improve stability, functionality and further development, as well as better instructions. 
+qanda_donate = Support further development 
+
+# YForm table translation
+notification_table_name_label = Headline
+notification_table_name_notice = Short descriptive title
+notification_table_date_from_label = Date from
+notification_table_date_from_notice = From when should the notification be displayed?
+notification_table_date_to_label = Date to
+notification_table_date_to_notice = By when should the notification be displayed? 
+
+notification_table_message_label = Content
+notification_table_message_notice = Notification content 
+notification_table_status_label = Status
+notification_table_status_notice = Should this notification be displayed in general?
+notification_table_status_offline = Offline
+notification_table_status_online = Online
+
+notification_table_createdate_label = Creation date
+
+notification_table_type_label = Type
+notification_table_type_notice = optional: notification type, e.g.: warning, info, ...
+notification_table_type_default = no choice
+notification_table_type_warning = Warning / Important
+notification_table_type_info = Information / Notice
+notification_table_type_danger = Danger / Negative
+notification_table_type_success = Success / Positive
+
+notification_table_dismiss_label = Dismiss
+notification_table_dismiss_notice = Allowed or disallowed as a website visitor:close in the message.
+notification_table_dismiss_allow = allowed - the message can be dismissed
+notification_table_dismiss_disallow = disallowed - the message remains visible
