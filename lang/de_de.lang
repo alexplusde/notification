@@ -1,9 +1,13 @@
 notification_title = Benachrichtigungen
 notification_settings = Einstellungen
 notification_docs = Hilfe
+
 # Konfigurationsformulare
 notification_config = Einstellungen
 notification_config_editor_label = Editor-Einstellung
+
+qanda_info_donate = Anders als die meisten Addons aus der REDAXO-Community ist die Entstehung und Weiterentwicklung dieses Addons nicht durch eigene Projekte gedeckt. Mit einer Beauftragung sicherst du zusätzliche Features, die Stabilität, Funktionsumfang und Weiterentwicklung weiter verbessern können, sowie eine bessere Anleitung. 
+qanda_donate = Weiterentwicklung unterstützen 
 
 # YForm Tablelen-Übersetzung
 notification_table_name_label = Überschrift
