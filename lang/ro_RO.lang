@@ -1,0 +1,40 @@
+notification_title = Notificări
+notification_settings = Setări
+notification_docs = ajutor
+
+# Formulare de configurare
+notification_config = setări
+notification_config_editor_label = Preferința editorului
+
+qanda_info_donate = Spre deosebire de majoritatea suplimentelor din comunitatea REDAXO, crearea și dezvoltarea ulterioară a acestui supliment nu este acoperită de proiectele proprii. Cu o comandă asigurați funcții suplimentare care pot îmbunătăți în continuare stabilitatea, funcționalitatea și dezvoltarea ulterioară, precum și instrucțiuni mai bune. 
+qanda_donate = Sprijiniți dezvoltarea ulterioară 
+
+# Traducerea tabelului YForm
+notification_table_name_label = Titlu
+notification_table_name_notice = Titlu descriptiv scurt
+notification_table_date_from_label = Data de la
+notification_table_date_from_notice = De când ar trebui să fie afișată notificarea?
+notification_table_date_to_label = Data până la
+notification_table_date_to_notice = Până când ar trebui să fie afișată notificarea? 
+
+notification_table_message_label = Conținut
+notification_table_message_notice = Conținutul notificării 
+notification_table_status_label = Stare
+notification_table_status_notice = Această notificare ar trebui să fie afișată în general?
+notification_table_status_offline = Offline
+notification_table_status_online = Online
+
+notification_table_createdate_label = Data creării
+
+notification_table_type_label = Tip
+notification_table_type_notice = opțional: tipul de notificare, de exemplu: avertisment, informații, ...
+notification_table_type_default = nicio alegere
+notification_table_type_warning = Avertisment / Important
+notification_table_type_info = Informații / Notă
+notification_table_type_danger = Pericol / Negativ
+notification_table_type_success = Succes / Pozitiv
+
+notification_table_dismiss_label = Închide
+notification_table_dismiss_notice = Permis sau interzis ca vizitator al site-ului web: închideți mesajul.
+notification_table_dismiss_allow = permis - mesajul poate fi respins
+notification_table_dismiss_disallow = nepermis - mesajul rămâne vizibil

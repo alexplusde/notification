@@ -1,0 +1,40 @@
+notificación_título = Notificaciones
+notification_settings=Configuración
+notificación_docs = ayuda
+
+# Formularios de configuración
+notificación_config = configuración
+notificación_config_editor_label = Preferencia del editor
+
+qanda_info_donate = A diferencia de la mayoría de los complementos de la comunidad REDAXO, la creación y el desarrollo posterior de este complemento no están cubiertos por proyectos propios. Con un pedido, obtiene funciones adicionales que pueden mejorar aún más la estabilidad, la funcionalidad y el desarrollo, así como mejores instrucciones. 
+qanda_donate = Apoyar un mayor desarrollo 
+
+# traducción de la tabla YForm
+notificación_table_name_label = Titular
+notificación_table_name_notice = Título descriptivo breve
+notificación_table_date_from_label = Fecha desde
+notificación_table_date_from_notice = ¿Desde cuándo se debe mostrar la notificación?
+notificación_table_date_to_label = Fecha hasta
+notification_table_date_to_notice = ¿Cuándo debe mostrarse la notificación? 
+
+notificación_table_message_label = Contenido
+notification_table_message_notice=Contenido de la notificación 
+notificación_table_status_label=Estado
+notificación_table_status_notice = ¿Debería mostrarse esta notificación en general?
+notificación_table_status_offline = Desconectado
+notificación_table_status_online = En línea
+
+notificación_table_createdate_label=Fecha de creación
+
+notificación_table_type_label = Tipo
+notification_table_type_notice = opcional: tipo de notificación, por ejemplo: advertencia, información, ...
+notificación_table_type_default = sin elección
+notification_table_type_warning=Advertencia/Importante
+notificación_table_type_info = Información / Aviso
+notificación_table_type_danger = Peligro / Negativo
+notification_table_type_success=Éxito/Positivo
+
+notificación_table_dismiss_label = Descartar
+notificación_table_dismiss_notice = Permitido o no permitido como visitante del sitio web: cerrar en el mensaje.
+notificación_table_dismiss_allow = permitido - el mensaje se puede descartar
+notificación_table_dismiss_disallow = no permitido - el mensaje permanece visible

@@ -1,0 +1,40 @@
+notification_title = Ειδοποιήσεις
+notification_settings = Ρυθμίσεις
+notification_docs = βοήθεια
+
+# Φόρμες διαμόρφωσης
+notification_config = ρυθμίσεις
+notification_config_editor_label = Προτίμηση επεξεργαστή
+
+qanda_info_donate = Σε αντίθεση με τα περισσότερα πρόσθετα από την κοινότητα REDAXO, η δημιουργία και η περαιτέρω ανάπτυξη αυτού του πρόσθετου δεν καλύπτεται από δικά τους έργα. Με μια παραγγελία εξασφαλίζετε πρόσθετες λειτουργίες που μπορούν να βελτιώσουν περαιτέρω τη σταθερότητα, τη λειτουργικότητα και την περαιτέρω ανάπτυξη, καθώς και καλύτερες οδηγίες. 
+qanda_donate = Υποστήριξη περαιτέρω ανάπτυξης 
+
+# Μετάφραση πίνακα YForm
+notification_table_name_label = Επικεφαλίδα
+notification_table_name_notice = Σύντομος περιγραφικός τίτλος
+notification_table_date_from_label = Ημερομηνία από
+notification_table_date_from_notice = Από πότε πρέπει να εμφανίζεται η ειδοποίηση;
+notification_table_date_to_label = Ημερομηνία έως
+notification_table_date_to_notice = Πότε πρέπει να εμφανίζεται η ειδοποίηση; 
+
+notification_table_message_label = Περιεχόμενο
+notification_table_message_notice = Περιεχόμενο ειδοποίησης 
+notification_table_status_label = Κατάσταση
+notification_table_status_notice = Πρέπει αυτή η ειδοποίηση να εμφανίζεται γενικά;
+notification_table_status_offline = Εκτός σύνδεσης
+notification_table_status_online = Online
+
+notification_table_createdate_label = Ημερομηνία δημιουργίας
+
+notification_table_type_label = Τύπος
+notification_table_type_notice = προαιρετικό: τύπος ειδοποίησης, π.χ.: προειδοποίηση, πληροφορίες, ...
+notification_table_type_default = δεν υπάρχει επιλογή
+notification_table_type_warning = Προειδοποίηση / Σημαντικό
+notification_table_type_info = Πληροφορίες / Ειδοποίηση
+notification_table_type_danger = Κίνδυνος / Αρνητικό
+notification_table_type_success = Επιτυχία / Θετικό
+
+notification_table_dismiss_label = Παράβλεψη
+notification_table_dismiss_notice = Επιτρέπεται ή δεν επιτρέπεται ως επισκέπτης ιστότοπου:κλείστε στο μήνυμα.
+notification_table_dismiss_allow = επιτρέπεται - το μήνυμα μπορεί να παραβλεφθεί
+notification_table_dismiss_disallow = δεν επιτρέπεται - το μήνυμα παραμένει ορατό

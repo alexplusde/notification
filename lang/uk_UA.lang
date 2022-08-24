@@ -1,0 +1,40 @@
+notification_title = Сповіщення
+notification_settings = Налаштування
+notification_docs = допомога
+
+# Конфігураційні форми
+notification_config = налаштування
+notification_config_editor_label = Налаштування редактора
+
+qanda_info_donate = На відміну від більшості аддонів спільноти REDAXO, створення та подальший розвиток цього аддона не охоплюється власними проектами. З замовленням ви отримуєте додаткові функції, які можуть ще більше покращити стабільність, функціональність і подальший розвиток, а також кращі інструкції. 
+qanda_donate = Підтримка подальшого розвитку 
+
+# Переклад таблиці YForm
+notification_table_name_label = Заголовок
+notification_table_name_notice = Коротка описова назва
+notification_table_date_from_label = Дата з
+notification_table_date_from_notice = З якого часу має відображатися сповіщення?
+notification_table_date_to_label = Дата до
+notification_table_date_to_notice = Коли сповіщення повинно відображатися? 
+
+notification_table_message_label = Вміст
+notification_table_message_notice = Вміст сповіщення 
+notification_table_status_label = Статус
+notification_table_status_notice = Чи має відображатися це сповіщення взагалі?
+notification_table_status_offline = Офлайн
+notification_table_status_online = Онлайн
+
+notification_table_createdate_label = Дата створення
+
+notification_table_type_label = Тип
+notification_table_type_notice = необов’язковий: тип сповіщення, наприклад: попередження, інформація, ...
+notification_table_type_default = немає вибору
+notification_table_type_warning = Попередження / Важливо
+notification_table_type_info = Інформація / Повідомлення
+notification_table_type_danger = Небезпека / Негативний
+notification_table_type_success = Успішно / Позитивно
+
+notification_table_dismiss_label = Відхилити
+notification_table_dismiss_notice = Дозволено або заборонено як відвідувач веб-сайту: закрийте повідомлення.
+notification_table_dismiss_allow = дозволено - повідомлення можна відхилити
+notification_table_dismiss_disallow = заборонено - повідомлення залишається видимим

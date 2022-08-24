@@ -1,0 +1,40 @@
+notification_title = Obvestila
+notification_settings = nastavitve
+notification_docs = pomoč
+
+# Konfiguracijski obrazci
+notification_config = nastavitve
+notification_config_editor_label = Nastavitve urejevalnika
+
+qanda_info_donate = Za razliko od večine dodatkov iz skupnosti REDAXO ustvarjanje in nadaljnji razvoj tega dodatka nista zajeta v lastnih projektih. Z naročilom si zagotovite dodatne funkcije, ki lahko še izboljšajo stabilnost, funkcionalnost in nadaljnji razvoj ter boljša navodila. 
+qanda_donate = Podprite nadaljnji razvoj 
+
+# Prevod tabele YForm
+notification_table_name_label = Naslov
+notification_table_name_notice = Kratek opisni naslov
+notification_table_date_from_label = Datum od
+notification_table_date_from_notice = Od kdaj naj se prikaže obvestilo?
+notification_table_date_to_label = Datum do
+notification_table_date_to_notice = Do kdaj naj bo obvestilo prikazano? 
+
+notification_table_message_label = Vsebina
+notification_table_message_notice = Vsebina obvestila 
+notification_table_status_label = Status
+notification_table_status_notice = Ali naj bo to obvestilo prikazano na splošno?
+notification_table_status_offline = Brez povezave
+notification_table_status_online = Na spletu
+
+notification_table_createdate_label = Datum izdelave
+
+notification_table_type_label = Vrsta
+notification_table_type_notice = neobvezno: vrsta obvestila, npr.: opozorilo, informacija, ...
+notification_table_type_default = ni izbire
+notification_table_type_warning = Opozorilo / Pomembno
+notification_table_type_info = Informacije / Obvestilo
+notification_table_type_danger = Nevarnost / Negativno
+notification_table_type_success = Uspeh / Pozitivno
+
+notification_table_dismiss_label = Opusti
+notification_table_dismiss_notice = Dovoljen ali prepovedan kot obiskovalec spletne strani: zaprite sporočilo.
+notification_table_dismiss_allow = dovoljeno - sporočilo je mogoče opustiti
+notification_table_dismiss_disallow = onemogočeno - sporočilo ostane vidno

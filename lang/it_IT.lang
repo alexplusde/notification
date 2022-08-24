@@ -1,0 +1,40 @@
+notification_title = Notifiche
+impostazioni_di_notifica = impostazioni
+notification_docs = aiuto
+
+# Moduli di configurazione
+notification_config = impostazioni
+notification_config_editor_label = Preferenza dell'editor
+
+qanda_info_donate = Diversamente dalla maggior parte dei componenti aggiuntivi della comunità REDAXO, la creazione e l'ulteriore sviluppo di questo componente aggiuntivo non sono coperti dai propri progetti. Con un ordine assicuri funzionalità aggiuntive che possono migliorare ulteriormente stabilità, funzionalità e ulteriore sviluppo, nonché istruzioni migliori. 
+qanda_donate = Supporta l'ulteriore sviluppo 
+
+# Traduzione della tabella YForm
+notification_table_name_label = Titolo
+notification_table_name_notice = Titolo descrittivo breve
+notification_table_date_from_label = Data da
+notification_table_date_from_notice = Da quando dovrebbe essere visualizzata la notifica?
+notification_table_date_to_label = Data a
+notification_table_date_to_notice = Entro quando dovrebbe essere visualizzata la notifica? 
+
+notification_table_message_label = Contenuto
+notification_table_message_notice = Contenuto della notifica 
+notification_table_status_label = Stato
+notification_table_status_notice = Questa notifica dovrebbe essere visualizzata in generale?
+notification_table_status_offline = Non in linea
+notification_table_status_online = In linea
+
+notification_table_createdate_label = Data di creazione
+
+notification_table_type_label = Tipo
+notification_table_type_notice = facoltativo: tipo di notifica, ad es.: avviso, informazioni, ...
+notification_table_type_default = nessuna scelta
+notification_table_type_warning = Avviso/Importante
+notification_table_type_info = Informazioni/Avviso
+notification_table_type_danger = Pericolo/Negativo
+notification_table_type_success = Successo / Positivo
+
+notification_table_dismiss_label = Ignora
+notification_table_dismiss_notice = Consentito o non consentito come visitatore del sito web: chiudi nel messaggio.
+notification_table_dismiss_allow = consentito - il messaggio può essere ignorato
+notification_table_dismiss_disallow = non consentito - il messaggio rimane visibile

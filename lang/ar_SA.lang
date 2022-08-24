@@ -1,0 +1,40 @@
+ification_title = الإخطارات
+إشعار_settings = إعدادات
+media_docs = مساعدة
+
+# أشكال التكوين
+إشعار_config = إعدادات
+ification_config_editor_label = تفضيل المحرر
+
+qanda_info_donate = على عكس معظم الوظائف الإضافية من مجتمع REDAXO ، فإن إنشاء هذا الملحق وتطويره لا يتم تغطيته بواسطة المشاريع الخاصة. من خلال الطلب ، يمكنك تأمين ميزات إضافية يمكنها زيادة تحسين الاستقرار والوظائف والمزيد من التطوير ، بالإضافة إلى إرشادات أفضل. 
+qanda_donate = دعم المزيد من التطوير 
+
+# YForm ترجمة الجدول
+إشعار_table_name_label = العنوان
+alert_table_name_notice = عنوان وصفي قصير
+إشعار_table_date_from_label = تاريخ من
+alert_table_date_from_notice = من متى يجب عرض الإخطار؟
+إشعار_table_date_to_label = تاريخ
+إشعار_table_date_to_notice = متى يجب عرض الإخطار؟ 
+
+alert_table_message_label = المحتوى
+إشعار_table_message_notice = محتوى الإخطار 
+alert_table_status_label = الحالة
+alert_table_status_notice = هل يجب عرض هذا الإخطار بشكل عام؟
+alert_table_status_offline = غير متصل
+alert_table_status_online = متصل
+
+إشعار_table_createdate_label = تاريخ الإنشاء
+
+ification_table_type_label = النوع
+ification_table_type_notice = اختياري: نوع الإخطار ، على سبيل المثال: تحذير ، معلومات ، ...
+alert_table_type_default = لا يوجد خيار
+alert_table_type_warning = تحذير / هام
+alert_table_type_info = معلومات / إشعار
+إشعار_table_type_danger = خطر / سلبي
+إشعار_table_type_success = نجاح / إيجابي
+
+إشعار_table_dismiss_label = استبعاد
+إشعار_table_dismiss_notice = مسموح به أو غير مسموح به كزائر لموقع الويب: أغلق الرسالة.
+إشعار_table_dismiss_allow = مسموح - يمكن رفض الرسالة
+إشعار_table_dismiss_disallow = غير مسموح - تظل الرسالة مرئية
