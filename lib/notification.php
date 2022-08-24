@@ -30,6 +30,10 @@ class notification extends \rex_yform_manager_dataset
     {
         return $this->getValue('dismiss');
     }
+    public function getType() :string
+    {
+        return $this->getValue('type');
+    }
 
     public function isVisible() :bool
     {
