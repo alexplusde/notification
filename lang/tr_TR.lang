@@ -1,0 +1,40 @@
+bildirim_başlığı = Bildirimler
+bildirim_settings = Ayarlar
+bildirim_docs = yardım
+
+# Yapılandırma formları
+bildirim_config = ayarlar
+bildirim_config_editor_label = Düzenleyici tercihi
+
+qanda_info_donate = REDAXO topluluğundaki çoğu eklentinin aksine, bu eklentinin oluşturulması ve daha da geliştirilmesi kendi projeleri kapsamında değildir. Bir siparişle, kararlılığı, işlevselliği ve daha fazla geliştirmeyi daha da iyileştirebilecek ek özelliklerin yanı sıra daha iyi yönergeleri güvence altına alırsınız. 
+qanda_donate = Daha fazla geliştirmeyi destekleyin 
+
+# YForm tablo çevirisi
+bildirim_table_name_label = Başlık
+bildirim_table_name_notice = Kısa açıklayıcı başlık
+bildirim_table_date_from_label = Başlangıç tarihi
+bildirim_table_date_from_notice = Bildirim ne zamandan itibaren görüntülenecek?
+bildirim_table_date_to_label = Tarih
+bildirim_table_date_to_notice = Bildirim ne zaman gösterilecek? 
+
+bildirim_table_message_label = İçerik
+bildirim_table_message_notice = Bildirim içeriği 
+bildirim_table_status_label = Durum
+bildirim_table_status_notice = Bu bildirim genel olarak görüntülenmeli mi?
+bildirim_table_status_offline = Çevrimdışı
+bildirim_table_status_online = Çevrimiçi
+
+bildirim_table_createdate_label = Oluşturma tarihi
+
+bildirim_table_type_label = Tür
+bildirim_table_type_notice = isteğe bağlı: bildirim türü, ör.: uyarı, bilgi, ...
+bildirim_table_type_default = seçim yok
+bildirim_table_type_warning = Uyarı / Önemli
+bildirim_table_type_info = Bilgi / Bildirim
+bildirim_table_type_danger = Tehlike / Olumsuz
+bildirim_table_type_success = Başarılı / Olumlu
+
+bildirim_table_dismiss_label = Kapat
+bildirim_table_dismiss_notice = Web sitesi ziyaretçisi olarak izin verilir veya verilmez:mesajda kapat.
+bildirim_table_dismiss_allow = izin verildi - mesaj kapatılabilir
+bildirim_table_dismiss_disallow = izin verilmedi - mesaj görünür durumda kalır
