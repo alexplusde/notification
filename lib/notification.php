@@ -47,7 +47,7 @@ class notification extends \rex_yform_manager_dataset
         if ($from > $now || $to < $now) {
             return false;
         }
-        if ($this->getDismiss() == 1 && strpos(rex_cookie("notification_dismissed"), "|".$this->getId()."|")) {
+        if ($this->getDismiss() == 1 && false !== strpos(rex_cookie("notification_dismissed"), "|".$this->getId()."|")) {
             return false;
         }
         return true;
