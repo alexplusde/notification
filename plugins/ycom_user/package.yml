@@ -1,4 +1,4 @@
-package: notification/ycom
+package: notification/ycom_user
 version: '0.1-dev'
 author: 'Alexander Walther'
 supportpage: https://github.com/alexplusde/notification
@@ -13,7 +13,7 @@ requires:
         ycom: "^3"
 
 pages:
-    notification/ycom:
+    notification/ycom_user:
         title: translate:notification_title
         icon: rex-icon fa-list-alt
     notification/docs_ycom:

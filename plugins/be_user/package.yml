@@ -1,0 +1,23 @@
+package: notification/be_user
+version: '0.1-dev'
+author: 'Alexander Walther'
+supportpage: https://github.com/alexplusde/notification
+
+
+requires:
+    php:
+        version: '>7.3,<9'
+    redaxo: ^5.13
+    packages:
+        yform: "^4"
+
+pages:
+    notification/be_user:
+        title: translate:notification_title
+        icon: rex-icon fa-list-alt
+    notification/docs_be_user:
+        title: translate:notification_docs
+        subPath: README.md
+        icon: rex-icon fa-info-circle
+        itemclass: pull-right
+        perm: notification[docs]
