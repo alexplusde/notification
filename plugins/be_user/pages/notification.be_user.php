@@ -3,7 +3,7 @@
 $yform = $this->getProperty('yform', []);
 $yform = $yform[\rex_be_controller::getCurrentPage()] ?? [];
 
-$table_name = 'rex_notification_ycom_user';
+$table_name = 'rex_notification_be_user';
 
 \rex_extension::register(
     'YFORM_MANAGER_DATA_PAGE_HEADER',
