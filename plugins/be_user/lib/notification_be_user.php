@@ -1,6 +1,18 @@
 <?php
 class notification_be_user extends \rex_yform_manager_dataset
 {
+    public static function getNotificationByBeUserId($id)
+    {
+        notification::query()->where("status", "1")->find();
+    }
+    public function getRead()
+    {
+        return $this->getValue('read');
+    }
+    public static function isRead($notification_id, $be_user_id)
+    {
+    }
+    /*
     # https://github.com/yakamara/redaxo_yform/blob/master/docs/04_yorm.md#yorm-mit-eigener-model-class-verwenden
     public function getName() :string
     {
@@ -40,7 +52,7 @@ class notification_be_user extends \rex_yform_manager_dataset
         if ($this->getStatus() == 0) {
             return false;
         }
-        
+
         $now = new DateTime();
         $from = new DateTime($this->getDateFrom());
         $to = new DateTime($this->getDateTo());
@@ -52,6 +64,7 @@ class notification_be_user extends \rex_yform_manager_dataset
         }
         return true;
     }
+    */
     
     public static function getCurrentNotifications()
     {
