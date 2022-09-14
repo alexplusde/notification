@@ -1,0 +1,24 @@
+package: notification/ycom_user
+version: '0.1-dev'
+author: 'Alexander Walther'
+supportpage: https://github.com/alexplusde/notification
+
+
+requires:
+    php:
+        version: '>7.3,<9'
+    redaxo: ^5.13
+    packages:
+        yform: "^4"
+        ycom: "^4"
+
+pages:
+    notification/ycom_user:
+        title: translate:notification_ycom_user_title
+        icon: rex-icon fa-list-alt
+    notification/docs_ycom:
+        title: translate:notification_docs
+        subPath: README.md
+        icon: rex-icon fa-info-circle
+        itemclass: pull-right
+        perm: notification[docs]

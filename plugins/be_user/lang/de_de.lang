@@ -1,0 +1,32 @@
+notification_be_user_title = Benachrichtigungen (be_user-Benutzer)
+notification_be_user_docs = Hilfe (be_user)
+
+# YForm Tablelen-Übersetzung
+notification_be_user_table_name_label = Überschrift
+notification_be_user_table_name_notice = Kurzer aussagekräftiger Titel
+notification_be_user_table_date_from_label = Datum ab
+notification_be_user_table_date_from_notice = Ab wann soll der Hinweis angezeigt werden?
+notification_be_user_table_date_to_label = Datum bis
+notification_be_user_table_date_to_notice = Bis wann soll der Hinweis angezeigt werden? 
+
+notification_be_user_table_message_label = Inhalt
+notification_be_user_table_message_notice = Inhalt der Benachrichtigung 
+notification_be_user_table_status_label = Status
+notification_be_user_table_status_notice = Soll dieser Hinweis generell angezeigt werden?
+notification_be_user_table_status_offline = Offline
+notification_be_user_table_status_online = Online
+
+notification_be_user_table_createdate_label = Erstelldatum
+
+notification_be_user_table_type_label = Typ
+notification_be_user_table_type_notice = optional: Hinweis-Typ, z.B: Warnung, Info, ...
+notification_be_user_table_type_default = keine Auswahl
+notification_be_user_table_type_warning = Warnung / Wichtig
+notification_be_user_table_type_info = Information / Hinweis
+notification_be_user_table_type_danger = Gefahr / Negativ
+notification_be_user_table_type_success = Erfolg / Positiv
+
+notification_be_user_table_dismiss_label = Wegklicken
+notification_be_user_table_dismiss_notice = erlaubt oder untersagt, als Website-Besucher:in die Nachricht zu schließen.
+notification_be_user_table_dismiss_allow = erlaubt - die Nachricht lässt sich schließen
+notification_be_user_table_dismiss_disallow = untersagt - die Nachricht bleibt sichtbar
