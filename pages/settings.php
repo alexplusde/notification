@@ -2,7 +2,7 @@
 
 $addon = rex_addon::get('notification');
 
-$form = rex_config_form::factory($addon->name);
+$form = rex_config_form::factory($addon->getName());
 
 $field = $form->addInputField('text', 'editor', null, ['class' => 'form-control']);
 $field->setLabel(rex_i18n::msg('notification_editor'));
