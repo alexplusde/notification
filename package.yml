@@ -30,13 +30,13 @@ pages:
     settings:
         title: translate:notification_settings
         icon: rex-icon fa-gear
-        itemclass: pull-right
+        itemClass: pull-right
         perm: admin
     docs:
         title: translate:notification_docs
         subPath: README.md
         icon: rex-icon fa-info-circle
-        itemclass: pull-right
+        itemClass: pull-right
         perm: notification[docs]
 
 default_config:

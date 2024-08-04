@@ -20,5 +20,5 @@ pages:
         title: translate:notification_docs
         subPath: README.md
         icon: rex-icon fa-info-circle
-        itemclass: pull-right
+        itemClass: pull-right
         perm: notification[docs]
